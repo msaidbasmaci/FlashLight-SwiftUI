@@ -21,7 +21,7 @@ struct ContentView: View {
                         torchColour = Color.white
                         toggleTorch(on: false)
                     }){
-                        Image(systemName: "flashlight.slash").foregroundColor(torchColour).font(.largeTitle)
+                        Image(systemName: "flashlight.off.fill").foregroundColor(torchColour).font(.largeTitle)
                     }
                     Button(action:{
                         backgroundColour = Color.white
